@@ -1,13 +1,4 @@
-# li x1, 4
-# li x2, 3
-# li x3, 2
-# li x4, 1
-# li x5, 0x100
-
-# sw x1, 0(x5)
-# sw x2, 4(x5)
-# sw x3, 8(x5)
-# sw x4, 12(x5)
+# Bubble Sort implemented in Assembly code 
 
 li x5, 0x100        # x5 = starting memory address
 li x1, 23
@@ -15,28 +6,20 @@ sw x1, 0(x5)
 
 li x1, 12
 sw x1, 4(x5)
-
 li x1, 5
 sw x1, 8(x5)
-
 li x1, 44
 sw x1, 12(x5)
-
 li x1, 98
 sw x1, 16(x5)
-
 li x1, 53
 sw x1, 20(x5)
-
 li x1, 6
 sw x1, 24(x5)
-
 li x1, 89
 sw x1, 28(x5)
-
 li x1, 32
 sw x1, 32(x5)
-
 li x1, 65
 sw x1, 36(x5)
 
