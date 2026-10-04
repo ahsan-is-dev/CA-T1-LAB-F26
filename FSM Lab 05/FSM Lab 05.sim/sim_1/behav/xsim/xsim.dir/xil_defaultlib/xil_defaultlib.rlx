@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sim_1/new/fsm_tb.v,1790225985,verilog,,,,tb_top_fsm_system,,,,,,,,
+C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sources_1/new/clock_divider.v,1790222390,verilog,,C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sources_1/new/debouncer.v,,clock_divider,,,,,,,,
+C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sources_1/new/debouncer.v,1790222390,verilog,,C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sources_1/new/leds.v,,debouncer,,,,,,,,
+C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sources_1/new/leds.v,1790222390,verilog,,C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sources_1/new/skeleton_top_fsm.v,,leds,,,,,,,,
+C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sources_1/new/skeleton_top_fsm.v,1790226044,verilog,,C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sources_1/new/switches.v,,top_fsm_system,,,,,,,,
+C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sources_1/new/switches.v,1790222390,verilog,,C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sim_1/new/fsm_tb.v,,switches,,,,,,,,

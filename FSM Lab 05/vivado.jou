@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Sep 24 08:59:56 2026
+# Process ID: 27780
+# Current directory: C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31992 C:\Users\aa11151\Documents\CA T1 Labs\FSM_Lab_05\FSM Lab 05\FSM Lab 05.xpr
+# Log file: C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/vivado.log
+# Journal file: C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.xpr}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sim_1/new
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sim_1/new
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sim_1/new
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sim_1/new
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sim_1/new
+file mkdir {C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sim_1/new}
+close [ open {C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sim_1/new/fsm_tb.v} w ]
+add_files -fileset sim_1 {{C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/sim_1/new/fsm_tb.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_top_fsm_system.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+launch_simulation
+source tb_top_fsm_system.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/constrs_1
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/constrs_1
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/constrs_1/new
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/constrs_1/new
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/constrs_1/new
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/constrs_1/new
+file mkdir C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/constrs_1
+file mkdir {C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/constrs_1/new}
+close [ open {C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/constrs_1/new/fsm.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/constrs_1/new/fsm.xdc}}
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+current_design synth_1
+close_design
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {physical_leds[15]} {physical_leds[14]} {physical_leds[13]} {physical_leds[12]} {physical_leds[11]} {physical_leds[10]} {physical_leds[9]} {physical_leds[8]} {physical_leds[7]} {physical_leds[6]} {physical_leds[5]} {physical_leds[4]} {physical_leds[3]} {physical_leds[2]} {physical_leds[1]} {physical_leds[0]}]]
+set_property package_pin "" [get_ports [list  {physical_sw[5]}]]
+set_property part xc7a35tcpg236-1 [current_project]
+set_property target_constrs_file {C:/Users/aa11151/Documents/CA T1 Labs/FSM_Lab_05/FSM Lab 05/FSM Lab 05.srcs/constrs_1/new/fsm.xdc} [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+refresh_hw_server {localhost:3121}
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+refresh_hw_server {localhost:3121}
+refresh_hw_server {localhost:3121}
+open_hw_target -xvc_url FPGA Device:2542
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+refresh_hw_server {localhost:3121}
+refresh_hw_server {localhost:3121}
