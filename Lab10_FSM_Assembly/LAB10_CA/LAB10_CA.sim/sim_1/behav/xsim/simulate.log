@@ -1,0 +1,45 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+==========================================================
+  PC (Hex)  |  Instruction (Hex)  |  Stage / Label
+==========================================================
+  0x00000000 |     0x0fc00113     |  Byte Addr: 0
+  0x00000004 |     0x20000913     |  Byte Addr: 4
+  0x00000008 |     0x10000993     |  Byte Addr: 8
+  0x0000000c |     0x30000a13     |  Byte Addr: 12
+  0x00000010 |     0x00000493     |  Byte Addr: 16
+  0x00000014 |     0x00000413     |  Byte Addr: 20
+  0x00000018 |     0x0009a023     |  Byte Addr: 24
+  0x0000001c |     0x00092283     |  Byte Addr: 28
+  0x00000020 |     0xfe028ae3     |  Byte Addr: 32
+  0x00000024 |     0x00100413     |  Byte Addr: 36
+  0x00000028 |     0x00028533     |  Byte Addr: 40
+  0x0000002c |     0x008000ef     |  Byte Addr: 44
+  0x00000030 |     0xfe0002e3     |  Byte Addr: 48
+  0x00000034 |     0xff410113     |  Byte Addr: 52
+  0x00000038 |     0x00112423     |  Byte Addr: 56
+  0x0000003c |     0x00812223     |  Byte Addr: 60
+  0x00000040 |     0x00912023     |  Byte Addr: 64
+  0x00000044 |     0x000504b3     |  Byte Addr: 68
+  0x00000048 |     0x0099a023     |  Byte Addr: 72
+  0x0000004c |     0x000a2303     |  Byte Addr: 76
+  0x00000050 |     0x00031a63     |  Byte Addr: 80
+  0x00000054 |     0x02c000ef     |  Byte Addr: 84
+  0x00000058 |     0x00031663     |  Byte Addr: 88
+  0x0000005c |     0xfff48493     |  Byte Addr: 92
+  0x00000060 |     0xfe0494e3     |  Byte Addr: 96
+  0x00000064 |     0x00000493     |  Byte Addr: 100
+  0x00000068 |     0x0009a023     |  Byte Addr: 104
+  0x0000006c |     0x00012483     |  Byte Addr: 108
+  0x00000070 |     0x00412403     |  Byte Addr: 112
+  0x00000074 |     0x00812083     |  Byte Addr: 116
+  0x00000078 |     0x00c10113     |  Byte Addr: 120
+  0x0000007c |     0x00008067     |  Byte Addr: 124
+  0x00000080 |     0x002623b7     |  Byte Addr: 128
+  0x00000084 |     0x5a038393     |  Byte Addr: 132
+  0x00000088 |     0x000a2303     |  Byte Addr: 136
+  0x0000008c |     0x00031663     |  Byte Addr: 140
+  0x00000090 |     0xfff38393     |  Byte Addr: 144
+  0x00000094 |     0xfe039ae3     |  Byte Addr: 148
+  0x00000098 |     0x00008067     |  Byte Addr: 152
+$finish called at time : 490 ns : File "D:/LAB10_CA/LAB10_CA.srcs/sim_1/new/instructionMemory_tb.v" Line 46

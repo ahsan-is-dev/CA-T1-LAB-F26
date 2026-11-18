@@ -1,0 +1,15 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.sim/sim_1/behav/xsim/glbl.v,1791432744,verilog,,,,glbl,,,,,,,,
+C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sim_1/new/RF_ALU_FSM_tb.v,1791435854,verilog,,,,int_TB,,,,,,,,
+C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/32bit_shifter.v,1791432744,verilog,,C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/ALU.v,,shifter_32bit,,,,,,,,
+C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/ALU.v,1791432744,verilog,,C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/ALU_1bit.v,,ALU,,,,,,,,
+C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/ALU_1bit.v,1791432744,verilog,,C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/REG_FIlE.v,,alu_1bit,,,,,,,,
+C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/REG_FIlE.v,1791435830,verilog,,C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/adder_subtractor.v,,REG_FIlE,,,,,,,,
+C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/adder_subtractor.v,1791432744,verilog,,C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/and.v,,adder_subtractor,,,,,,,,
+C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/and.v,1791432744,verilog,,C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/full_adder.v,,and_1bit,,,,,,,,
+C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/full_adder.v,1791432744,verilog,,C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/or.v,,full_adder,,,,,,,,
+C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/or.v,1791432744,verilog,,C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/xor.v,,or_1bit,,,,,,,,
+C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/xor.v,1791432744,verilog,,C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sim_1/new/RF_ALU_FSM_tb.v,,xor_1bit,,,,,,,,

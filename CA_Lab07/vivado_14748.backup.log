@@ -1,0 +1,185 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct 15 08:21:48 2026
+# Process ID: 14748
+# Current directory: C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19108 C:\Users\muham\OneDrive\Desktop\CA_Lab07\CA_Lab07\CA_Lab07.xpr
+# Log file: C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/vivado.log
+# Journal file: C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/sj11229/Desktop/CA_Lab07' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:39 ; elapsed = 00:00:21 . Memory (MB): peak = 1024.758 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: top_rf_alu
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1314.582 ; gain = 237.273
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_rf_alu' [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/top_rf_alu.v:23]
+	Parameter INIT bound to: 3'b000 
+	Parameter LOAD_X1 bound to: 3'b001 
+	Parameter LOAD_X2 bound to: 3'b010 
+	Parameter ALU_ADD bound to: 3'b011 
+	Parameter ALU_SUB bound to: 3'b100 
+	Parameter CHECK_ZERO bound to: 3'b101 
+	Parameter DONE bound to: 3'b110 
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (1#1) [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/top_rf_alu.v:105]
+INFO: [Synth 8-6157] synthesizing module 'REG_FIlE' [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/REG_FIlE.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REG_FIlE' (2#1) [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/REG_FIlE.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/ALU.v:22]
+INFO: [Synth 8-6157] synthesizing module 'alu_1bit' [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/ALU_1bit.v:22]
+INFO: [Synth 8-6157] synthesizing module 'adder_subtractor' [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/adder_subtractor.v:23]
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/full_adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (3#1) [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/full_adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'adder_subtractor' (4#1) [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/adder_subtractor.v:23]
+INFO: [Synth 8-6157] synthesizing module 'and_1bit' [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/and.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'and_1bit' (5#1) [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/and.v:1]
+INFO: [Synth 8-6157] synthesizing module 'or_1bit' [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/or.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'or_1bit' (6#1) [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/or.v:3]
+INFO: [Synth 8-6157] synthesizing module 'xor_1bit' [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/xor.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xor_1bit' (7#1) [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/xor.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu_1bit' (8#1) [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/ALU_1bit.v:22]
+INFO: [Synth 8-6157] synthesizing module 'shifter_32bit' [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/32bit_shifter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'shifter_32bit' (9#1) [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/32bit_shifter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (10#1) [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/ALU.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'top_rf_alu' (11#1) [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/top_rf_alu.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1370.188 ; gain = 292.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1370.188 ; gain = 292.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1370.188 ; gain = 292.879
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1370.188 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/constrs_1/new/fsm.xdc]
+Finished Parsing XDC File [C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/constrs_1/new/fsm.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1490.715 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:51 ; elapsed = 00:00:40 . Memory (MB): peak = 1490.715 ; gain = 413.406
+27 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:04 ; elapsed = 00:00:56 . Memory (MB): peak = 1490.715 ; gain = 465.957
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'int_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj int_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/32bit_shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/ALU_1bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_1bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/REG_FIlE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_FIlE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/adder_subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/and.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and_1bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/or.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_1bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sources_1/new/xor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor_1bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sim_1/new/RF_ALU_FSM_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module int_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.sim/sim_1/behav/xsim'
+"xelab -wto de8baad087a24c13bbba9d901a0ec56e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot int_TB_behav xil_defaultlib.int_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto de8baad087a24c13bbba9d901a0ec56e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot int_TB_behav xil_defaultlib.int_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.REG_FIlE
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.adder_subtractor
+Compiling module xil_defaultlib.and_1bit
+Compiling module xil_defaultlib.or_1bit
+Compiling module xil_defaultlib.xor_1bit
+Compiling module xil_defaultlib.alu_1bit
+Compiling module xil_defaultlib.shifter_32bit
+Compiling module xil_defaultlib.ALU_default
+Compiling module xil_defaultlib.int_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot int_TB_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.sim/sim_1/behav/xsim/xsim.dir/int_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Oct 15 10:36:04 2026...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 1492.602 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '17' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "int_TB_behav -key {Behavioral:sim_1:Functional:int_TB} -tclbatch {int_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source int_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 80 ns : File "C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.srcs/sim_1/new/RF_ALU_FSM_tb.v" Line 150
+xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1520.957 ; gain = 11.605
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'int_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 1520.957 ; gain = 28.355
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 15 10:45:20 2026...

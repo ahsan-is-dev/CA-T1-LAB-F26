@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Nov 12 09:39:58 2026
+# Process ID: 42628
+# Current directory: C:/Users/sj11229.HUF/Desktop/CA_Lab11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16332 C:\Users\sj11229.HUF\Desktop\CA_Lab11\CA_Lab11.xpr
+# Log file: C:/Users/sj11229.HUF/Desktop/CA_Lab11/vivado.log
+# Journal file: C:/Users/sj11229.HUF/Desktop/CA_Lab11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sj11229.HUF/Desktop/CA_Lab11/CA_Lab11.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/sj11229.HUF/Desktop/CA_Lab11/CA_Lab11.srcs/sources_1/new/REG_FILE.v w ]
+add_files C:/Users/sj11229.HUF/Desktop/CA_Lab11/CA_Lab11.srcs/sources_1/new/REG_FILE.v
+update_compile_order -fileset sources_1

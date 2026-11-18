@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct 29 09:06:20 2026
+# Process ID: 4844
+# Current directory: C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA lab08
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6920 C:\Users\muham\OneDrive\Desktop\CA_Lab07\CA lab08\CA lab08.xpr
+# Log file: C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA lab08/vivado.log
+# Journal file: C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA lab08\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA lab08/CA lab08.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source MemorySystem_tb.tcl
+close_sim

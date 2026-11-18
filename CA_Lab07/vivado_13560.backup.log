@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Nov  5 09:20:33 2026
+# Process ID: 13560
+# Current directory: C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8648 C:\Users\muham\OneDrive\Desktop\CA_Lab07\CA_Lab07\CA_Lab07.xpr
+# Log file: C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/vivado.log
+# Journal file: C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/muham/OneDrive/Desktop/CA_Lab07/CA_Lab07/CA_Lab07.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:50 ; elapsed = 00:00:27 . Memory (MB): peak = 1027.672 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  5 09:27:42 2026...
